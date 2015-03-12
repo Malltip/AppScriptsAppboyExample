@@ -3,7 +3,7 @@
 function doGet() {
   var DAILY_ACTIVE_USERS = 'https://api.appboy.com/kpi/dau/data_series';
   var NEW_USERS = 'https://api.appboy.com/kpi/new_users/data_series';
-  var APP_GROUP_ID = 'YOUR_GROUP_ID';
+  var APP_GROUP_ID = 'YOUR_APP_GROUP_ID';
   var LENGTH = 100;
   var today = new Date();
   var dd = today.getDate();
